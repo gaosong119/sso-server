@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>index</title>
+</head>
+<body>
+    <div>
+        <form id="login" action="/login" method="post">
+            username:<input type="text" name="username" value="zhangsan" />
+            password:<input type="password" name="password" value="123456" />
+            <input type="hidden" name="clientUrl" value="${clientUrl!}" />
+            <input type="submit" value="Login" />
+        </form>
+    </div>
+</body>
+</html>
