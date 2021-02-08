@@ -22,7 +22,7 @@ public class SessionFilter implements Filter {
 
     @Override
     public void init(FilterConfig filterConfig) throws ServletException {
-
+        System.out.println("进入SessionFilter");
     }
 
     @Override
